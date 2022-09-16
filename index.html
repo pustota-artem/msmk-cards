@@ -440,49 +440,50 @@
 
     <!-- VIDEO SECTION -->
 
-    <section class="bg-slate-300">
-
+    <section class="bg-[#d6d8f1]" id="hero">
+        <img src="src/img/fallback.png" class="absolute object-cover w-auto h-full lg:hidden">
         <!-- <video autoplay muted loop id="myVideo" class="absolute hidden md:block">
             <source src="src/video/video1.mp4" type="video/mp4">
         </video> -->
 
-        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute hidden object-cover w-full h-max md:block">
+        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute hidden object-cover w-auto h-max lg:block" id="videoBG">
             <source src="src/video/video1.webm" type="video/webm">
             <source src="src/video/video1.mp4" type="video/mp4">
         </video>
 
-        <img src="src/img/fallback.png" class="absolute object-cover w-full h-[100%] md:hidden">
+        <div class="relative flex flex-col items-start justify-center p-10 md:px-40 md:py-20">
+            <div class="max-w-[1240px]">
+                <div class="mb-24">
 
-        <!-- <div class="absolute w-full h-full bg-black opacity-50"></div> -->
+                    <div class="flex flex-col items-start justify-center">
+                        <p class="mb-20 text-2xl md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
+                        </p>
+                        <h1 class="mb-24 text-3xl font-bold md:text-5xl">«Созависимость:<br />от бессознательного<br />к
+                            осознанности»
+                        </h1>
+                        <p class="mb-32 text-3xl">Установите контакт со своим подсознанием,<br />выявите суть проблемы и
+                            решите ее</p>
+                        <a href="#"
+                            class="bg-[#dd7c7c] text-white font-medium p-5 rounded-2xl shadow-md text-lg">Записаться
+                            на курс</a>
+                    </div>
 
-        <div class="relative p-10 md:px-40 md:py-20">
-            <div class="mb-20">
-                <div class="flex flex-col items-start justify-center">
-                    <p class="mb-20 text-2xl md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
-                    </p>
-                    <h1 class="mb-24 text-3xl font-bold md:text-5xl">«Созависимость:<br />от бессознательного<br />к
-                        осознанности»
-                    </h1>
-                    <p class="mb-32 text-3xl">Установите контакт со своим подсознанием,<br />выявите суть проблемы и
-                        решите ее</p>
-                    <a href="#" class="bg-[#dd7c7c] text-white font-medium p-5 rounded-2xl shadow-md text-lg">Записаться
-                        на курс</a>
                 </div>
+                <ul class="flex flex-col justify-start text-xl md:space-x-24 md:flex-row">
+                    <li class="">
+                        <p>Когда</p>
+                        <p class="font-bold">26 июля</p>
+                    </li>
+                    <li>
+                        <p>Формат обучения</p>
+                        <p class="font-bold">Онлайн в прямом эфире</p>
+                    </li>
+                    <li>
+                        <p>Для кого</p>
+                        <p class="font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
+                    </li>
+                </ul>
             </div>
-            <ul class="flex flex-col justify-start text-xl md:space-x-24 md:flex-row">
-                <li class="">
-                    <p>Когда</p>
-                    <p class="font-bold">26 июля</p>
-                </li>
-                <li>
-                    <p>Формат обучения</p>
-                    <p class="font-bold">Онлайн в прямом эфире</p>
-                </li>
-                <li>
-                    <p>Для кого</p>
-                    <p class="font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
-                </li>
-            </ul>
         </div>
     </section>
 
