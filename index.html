@@ -16,13 +16,13 @@
 
     <!-- NAVBAR -->
 
-    <div class="flex justify-center items-center w-full h-[100px] bg-gray-100">
+    <!-- <div class="flex justify-center items-center w-full h-[100px] bg-gray-100">
         <h1 class="text-3xl font-bold">ШАПКА</h1>
-    </div>
+    </div> -->
 
     <!-- HERO -->
 
-    <section class="h-auto bg-[#d7d8f1]">
+    <!-- <section class="h-auto bg-[#d7d8f1]">
         <div class="p-10 md:px-40 md:py-20">
             <div class="mb-20">
                 <div class="flex flex-col items-start justify-center">
@@ -51,31 +51,102 @@
                 </li>
             </ul>
         </div>
+    </section> -->
+
+    <section class="bg-[#d6d8f1]" id="hero">
+        <!-- <img src="src/img/fallback.png" class="absolute object-cover w-auto h-full lg:hidden"> -->
+        <!-- <video autoplay muted loop id="myVideo" class="absolute hidden md:block">
+            <source src="src/video/video1.mp4" type="video/mp4">
+        </video> -->
+
+
+        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute object-cover w-full h-full"
+            id="videoBG">
+        </video>
+
+
+        <div class="relative flex flex-col items-start justify-center p-10 lg:px-32 md:py-20">
+            <div class="max-w-[1240px]">
+                <div class="">
+
+                    <div class="flex flex-col items-start justify-center ">
+                        <p class="text-xl mb-14 md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
+                        </p>
+                        <h1 class="mb-20 text-4xl font-bold md:text-6xl">Созависимость:<br />от бессознательного<br />к
+                            осознанности
+                        </h1>
+                        <p class="text-xl mb-28 md:text-3xl">Установите контакт со своим подсознанием,<br />выявите суть
+                            проблемы и
+                            решите ее</p>
+                        <a href="#"
+                            class="bg-[#dd7c7c] text-white font-medium p-4 rounded-xl shadow-md text-lg">Записаться
+                            на курс</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        window.onload = function () {
+            if (window.innerWidth >= 1024)
+                document.getElementById('videoBG').innerHTML = '<source src="src/video/video1.webm" type="video/webm"> <source src="src/video/video1.mp4" type="video/mp4">'
+        };
+    </script>
+
+    <section class="relative h-auto bg-[#d6d8f1]">
+        <ul class="flex flex-col justify-center py-10 px-28 md:space-x-28 md:flex-row">
+            <li class="w-[100px]">
+                <p class="text-3xl">Когда:</p>
+                <p class="text-2xl font-bold">26 июля</p>
+            </li>
+            <li class="w-auto">
+                <p class="text-3xl">Формат обучения:</p>
+                <p class="text-2xl font-bold">Онлайн в прямом эфире</p>
+            </li>
+            <li class="w-[400px]">
+                <p class="text-3xl">Для кого:</p>
+                <p class="text-2xl font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
+            </li>
+        </ul>
     </section>
 
     <!-- ABOUT -->
 
-    <section class="flex justify-center bg-white">
-        <div class="p-10 md:px-40 md:py-20">
-            <h1 class="text-3xl font-bold mb-7">Что такое метафорические карты</h1>
-            <p class="mb-5 text-2xl">Метафорически карты — что это?</p>
-            <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et
-                dolore magna aliqua. Purus semper eget duis at tellus. At tellus at urna condimentum mattis. Parturient
-                montes nascetur ridiculus mus mauris. Amet risus nullam eget felis eget. Vestibulum lectus mauris
-                ultrices eros in cursus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Est placerat in
-                egestas erat imperdiet. Vel pharetra vel turpis nunc. Ipsum nunc aliquet bibendum enim
-                facilisis.<br /><br />
-                Volutpat consequat mauris nunc congue nisi vitae suscipit. Purus viverra accumsan in nisl. Aliquam id
-                diam maecenas ultricies mi eget mauris. Tincidunt nunc pulvinar sapien et. Nisl pretium fusce id velit
-                ut tortor pretium viverra suspendisse. Tortor id aliquet lectus proin nibh nisl
-                condimentum.<br /><br />Nunc non
-                blandit massa enim nec dui nunc mattis. Cursus metus aliquam eleifend mi in. Penatibus et magnis dis
-                parturient montes. In massa tempor nec feugiat nisl pretium fusce id. In iaculis nunc sed augue lacus
-                viverra vitae congue. Pulvinar neque laoreet suspendisse interdum consectetur. Sapien eget mi proin sed.
-                Sed viverra tellus in hac habitasse platea. Mattis molestie a iaculis at erat pellentesque adipiscing
-                commodo. Urna porttitor rhoncus dolor purus non enim praesent. Enim nulla aliquet porttitor lacus
-                luctus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+    <section class="relative h-auto bg-white ">
+        <div class="flex justify-center p-10 md:p-20">
+            <div class="max-w-[1240px]">
+                <h1 class="text-3xl font-bold md:text-4xl">Что такое метафорические карты</h1>
+                <p class="text-2xl my-7 md:text-3xl">Метафорически карты — что это?</p>
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt
+                    ut labore et
+                    dolore magna aliqua. Purus semper eget duis at tellus. At tellus at urna condimentum mattis.
+                    Parturient
+                    montes nascetur ridiculus mus mauris. Amet risus nullam eget felis eget. Vestibulum lectus mauris
+                    ultrices eros in cursus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Est placerat
+                    in
+                    egestas erat imperdiet. Vel pharetra vel turpis nunc. Ipsum nunc aliquet bibendum enim
+                    facilisis.<br /><br />
+                    Volutpat consequat mauris nunc congue nisi vitae suscipit. Purus viverra accumsan in nisl. Aliquam
+                    id
+                    diam maecenas ultricies mi eget mauris. Tincidunt nunc pulvinar sapien et. Nisl pretium fusce id
+                    velit
+                    ut tortor pretium viverra suspendisse. Tortor id aliquet lectus proin nibh nisl
+                    condimentum.<br /><br />Nunc non
+                    blandit massa enim nec dui nunc mattis. Cursus metus aliquam eleifend mi in. Penatibus et magnis dis
+                    parturient montes. In massa tempor nec feugiat nisl pretium fusce id. In iaculis nunc sed augue
+                    lacus
+                    viverra vitae congue. Pulvinar neque laoreet suspendisse interdum consectetur. Sapien eget mi proin
+                    sed.
+                    Sed viverra tellus in hac habitasse platea. Mattis molestie a iaculis at erat pellentesque
+                    adipiscing
+                    commodo. Urna porttitor rhoncus dolor purus non enim praesent. Enim nulla aliquet porttitor lacus
+                    luctus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+            </div>
         </div>
     </section>
 
@@ -89,8 +160,10 @@
                 <h1 class="mb-10 text-2xl font-normal text-white md:text-3xl">если вы узнаете себя в следующих
                     ситуациях:
                 </h1>
-                <div class="grid grid-cols-1 gap-12 text-xl text-white md:grid-cols-2 auto-cols-max mb-14">
 
+                <!-- GRID -->
+
+                <!-- <div class="grid grid-cols-1 gap-12 text-xl text-white md:grid-cols-2 auto-cols-max mb-14">
                     <div class="flex">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -99,7 +172,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -108,7 +180,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -117,7 +188,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -126,7 +196,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -135,7 +204,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -144,7 +212,6 @@
                                 др.)</p>
                         </div>
                     </div>
-
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -153,7 +220,74 @@
                                 др.)</p>
                         </div>
                     </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                </div> -->
 
+                <!-- FLEX WRAP -->
+                <div class="grid grid-cols-1 gap-12 text-xl text-white md:grid-cols-2 auto-cols-max mb-14">
+                    <div class="flex">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
+                    <div class="flex w-auto">
+                        <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
+                        <div class="items-center">
+                            <p class="">Живете с человеком, у которого есть
+                                зависимость(алкогольная/наркотическая/игровая/компьютерная и
+                                др.)</p>
+                        </div>
+                    </div>
                     <div class="flex w-auto">
                         <div class="h-auto w-3 bg-[#dd7c7c] mr-2"></div>
                         <div class="items-center">
@@ -439,60 +573,6 @@
     </section>
 
     <!-- VIDEO SECTION -->
-
-    <section class="bg-[#d6d8f1]" id="hero">
-        <!-- <img src="src/img/fallback.png" class="absolute object-cover w-auto h-full lg:hidden"> -->
-        <!-- <video autoplay muted loop id="myVideo" class="absolute hidden md:block">
-            <source src="src/video/video1.mp4" type="video/mp4">
-        </video> -->
-
-        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute object-cover w-auto h-max"
-            id="videoBG">
-        </video>
-
-        <div class="relative flex flex-col items-start justify-center p-10 md:px-40 md:py-20">
-            <div class="max-w-[1240px]">
-                <div class="mb-24">
-
-                    <div class="flex flex-col items-start justify-center">
-                        <p class="mb-20 text-2xl md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
-                        </p>
-                        <h1 class="mb-24 text-3xl font-bold md:text-5xl">«Созависимость:<br />от бессознательного<br />к
-                            осознанности»
-                        </h1>
-                        <p class="mb-32 text-3xl">Установите контакт со своим подсознанием,<br />выявите суть проблемы и
-                            решите ее</p>
-                        <a href="#"
-                            class="bg-[#dd7c7c] text-white font-medium p-5 rounded-2xl shadow-md text-lg">Записаться
-                            на курс</a>
-                    </div>
-
-                </div>
-                <ul class="flex flex-col justify-start text-xl md:space-x-24 md:flex-row">
-                    <li class="">
-                        <p>Когда</p>
-                        <p class="font-bold">26 июля</p>
-                    </li>
-                    <li>
-                        <p>Формат обучения</p>
-                        <p class="font-bold">Онлайн в прямом эфире</p>
-                    </li>
-                    <li>
-                        <p>Для кого</p>
-                        <p class="font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </section>
-
-    <script>
-        window.onload = function () {
-            if (window.innerWidth >= 1024)
-                document.getElementById('videoBG').innerHTML = '<source src="src/video/video1.webm" type="video/webm"> <source src="src/video/video1.mp4" type="video/mp4">'
-        };
-    </script>
 
 </body>
 
