@@ -1,9 +1,19 @@
 'use strict'
 
-const info = document.getElementById('info')
-const infoBtn = document.getElementById('info-btn')
+const infoBlock = document.getElementById('info-block');
+const openBtn = document.getElementById('open-info-btn');
+const closeBtn = document.getElementById('close-info-btn')
 
-infoBtn.addEventListener( 'click', () => {
-    info.classList.remove('h-auto');
-    info.classList.add('h-[500px]', 'duration-500');
+openBtn.addEventListener('click', function () {
+    infoBlock.classList.remove('max-h-0');
+    infoBlock.classList.add('max-h-60');
+    closeBtn.classList.remove('hidden');
+    openBtn.classList.add('hidden');
+})
+
+closeBtn.addEventListener('click', function () {
+    infoBlock.classList.remove('max-h-60'); 
+    infoBlock.classList.add('max-h-0');
+    closeBtn.classList.add('hidden');
+    openBtn.classList.remove('hidden');
 })
