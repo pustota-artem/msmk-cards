@@ -9,7 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet" />
-    <title>Document</title>
+    <title>Созависимость: от бессознательного к осознанности</title>
 </head>
 
 <body>
@@ -53,42 +53,76 @@
         </div>
     </section> -->
 
-    <section class="bg-[#d6d8f1]" id="hero">
-        <!-- <img src="src/img/fallback.png" class="absolute object-cover w-auto h-full lg:hidden"> -->
-        <!-- <video autoplay muted loop id="myVideo" class="absolute hidden md:block">
-            <source src="src/video/video1.mp4" type="video/mp4">
-        </video> -->
+    <section class="bg-white" id="hero">
 
-
-        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute object-cover w-full h-full"
+        <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute object-cover w-full h-full lg:h-auto"
             id="videoBG">
         </video>
 
 
-        <div class="relative flex flex-col items-start justify-center p-10 lg:px-32 md:py-20">
-            <div class="max-w-[1240px]">
-                <div class="">
+        <div class="relative flex-col justify-center p-8 lg:px-32 lg:py-20">
 
-                    <div class="flex flex-col items-start justify-center ">
-                        <p class="text-xl mb-14 md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
-                        </p>
-                        <h1 class="mb-20 text-4xl font-bold md:text-6xl">Созависимость:<br />от бессознательного<br />к
-                            осознанности
-                        </h1>
-                        <p class="text-xl mb-28 md:text-3xl">Установите контакт со своим подсознанием,<br />выявите суть
-                            проблемы и
-                            решите ее</p>
-                        <a href="#"
-                            class="bg-[#dd7c7c] text-white font-medium p-4 rounded-xl shadow-md text-lg">Записаться
-                            на курс</a>
-                    </div>
 
+
+            <div class="flex flex-col justify-start max-w-[1240px]">
+                <div class="flex flex-col items-start justify-center ">
+                    <p class="text-xl mb-14 md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
+                    </p>
+                    <h1 class="mb-20 text-4xl font-bold md:text-6xl">Созависимость:<br />от бессознательного<br />к
+                        осознанности
+                    </h1>
+                    <p class="text-xl mb-28 md:text-3xl">Установите контакт со своим подсознанием,<br />выявите суть
+                        проблемы и
+                        решите ее</p>
+                    <a href="#" class="bg-[#dd7c7c] text-white font-medium p-4 rounded-xl shadow-md text-lg">Записаться
+                        на курс</a>
                 </div>
             </div>
+
+
+            <!-- <div class="transition-transform relative h-auto flex flex-col justify-center p-4 mt-10 lg:mt-14 lg:w-[400px] bg-[#d6d8f1] rounded-lg shadow-xl"
+                id="info">
+                <div class="flex mb-4 space-x-12 md:mb-8">
+                    <div>
+                        <p class="text-xl md:text-2xl">Когда:</p>
+                        <p class="text-lg font-bold md:text-xl">26 июля</p>
+                    </div>
+                    <div>
+                        <p class="text-xl md:text-2xl">Формат обучения:</p>
+                        <p class="text-lg font-bold md:text-xl">Онлайн в прямом эфире</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px]">
+                    <p class="text-xl md:text-2xl">Для кого:</p>
+                    <p class="text-lg font-bold md:text-xl">Для тех, кто хочет разобраться в себе и преодолеть
+                        трудности</p>
+                </div>
+                <div class="cursor-pointer" id="info-btn">Click me</div>
+            </div> -->
+
+
+
+
+            <!-- <ul class="relative flex flex-col justify-center py-10 px-28 md:space-x-28 md:flex-row">
+                <li class="w-[100px]">
+                    <p class="text-3xl">Когда:</p>
+                    <p class="text-2xl font-bold">26 июля</p>
+                </li>
+                <li class="w-auto">
+                    <p class="text-3xl">Формат обучения:</p>
+                    <p class="text-2xl font-bold">Онлайн в прямом эфире</p>
+                </li>
+                <li class="w-auto md:w-[400px]">
+                    <p class="text-3xl">Для кого:</p>
+                    <p class="text-2xl font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
+                </li>
+            </ul> -->
 
         </div>
 
     </section>
+
+    <script src="src/script/info.js"></script>
 
     <script>
         window.onload = function () {
@@ -97,57 +131,39 @@
         };
     </script>
 
-    <section class="relative h-auto bg-[#d6d8f1]">
-        <ul class="flex flex-col justify-center py-10 px-28 md:space-x-28 md:flex-row">
-            <li class="w-[100px]">
-                <p class="text-3xl">Когда:</p>
-                <p class="text-2xl font-bold">26 июля</p>
-            </li>
-            <li class="w-auto">
-                <p class="text-3xl">Формат обучения:</p>
-                <p class="text-2xl font-bold">Онлайн в прямом эфире</p>
-            </li>
-            <li class="w-auto md:w-[400px]">
-                <p class="text-3xl">Для кого:</p>
-                <p class="text-2xl font-bold">Для тех, кто хочет разобраться в себе и преодолеть трудности</p>
-            </li>
-        </ul>
-    </section>
+    <!-- <section class="h-auto bg-white ">
+        <div class="flex justify-center">
+            <div class="max-w-[1240px]">
+
+            </div>
+        </div>
+    </section> -->
 
     <!-- ABOUT -->
 
-    <section class="relative h-auto bg-white ">
+    <section class="relative h-auto bg-white">
         <div class="flex justify-center p-10 md:p-20">
             <div class="max-w-[1240px]">
                 <h1 class="text-3xl font-bold md:text-4xl">Что такое метафорические карты</h1>
                 <p class="text-2xl my-7 md:text-3xl">Метафорически карты — что это?</p>
-                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt
-                    ut labore et
-                    dolore magna aliqua. Purus semper eget duis at tellus. At tellus at urna condimentum mattis.
-                    Parturient
-                    montes nascetur ridiculus mus mauris. Amet risus nullam eget felis eget. Vestibulum lectus mauris
-                    ultrices eros in cursus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Est placerat
-                    in
-                    egestas erat imperdiet. Vel pharetra vel turpis nunc. Ipsum nunc aliquet bibendum enim
-                    facilisis.<br /><br />
-                    Volutpat consequat mauris nunc congue nisi vitae suscipit. Purus viverra accumsan in nisl. Aliquam
-                    id
-                    diam maecenas ultricies mi eget mauris. Tincidunt nunc pulvinar sapien et. Nisl pretium fusce id
-                    velit
-                    ut tortor pretium viverra suspendisse. Tortor id aliquet lectus proin nibh nisl
-                    condimentum.<br /><br />Nunc non
-                    blandit massa enim nec dui nunc mattis. Cursus metus aliquam eleifend mi in. Penatibus et magnis dis
-                    parturient montes. In massa tempor nec feugiat nisl pretium fusce id. In iaculis nunc sed augue
-                    lacus
-                    viverra vitae congue. Pulvinar neque laoreet suspendisse interdum consectetur. Sapien eget mi proin
-                    sed.
-                    Sed viverra tellus in hac habitasse platea. Mattis molestie a iaculis at erat pellentesque
-                    adipiscing
-                    commodo. Urna porttitor rhoncus dolor purus non enim praesent. Enim nulla aliquet porttitor lacus
-                    luctus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                <p class="text-xl">
+                    У многих это словосочетание ассоциируется с мистикой, ритуалами и гаданиями. Это совершенно не так!
+                    Никакой магии! Метафорические ассоциативные карты (МАК) — действительно колода карт с иллюстрациями,
+                    и в то же время - инструмент для психологической диагностики и поиска решений.
+                    <br /><br />
+                    Работа с МАК-картами построена на методе проекции. Изображения людей, событий, природы, абстрактных
+                    образов или слов выступают определенным стимулом для подсознания, вызывающим ассоциации, связанные
+                    со внутренним миром человека.
+                    <br /><br />
+                    Мы часто видим в других то, что не замечаем в себе. Описывая изображение на картинке, человек,
+                    обходя свои же защитные механизмы психики, рассказывает о том, что происходит с ним самим.
+                    <br /><br />
+                    Метафорические карты (ассоциативные, О-карты) используют для самопознания, решения психологических
+                    проблем, поиска нестандартных решений. Эффективны в случаях, когда терапия «зашла в тупик» —
+                    человеку сложно напрямую рассказывать о себе, своих чувствах и переживаниях.
+                </p>
             </div>
-        </div>
+        </div>  
     </section>
 
     <!-- EFFICENCY -->
@@ -172,7 +188,8 @@
                     </div>
                     <div class="relative flex items-center w-auto">
                         <div class="absolute h-full w-[5px] bg-[#dd7c7c]"></div>
-                        <p class="ml-4">Пережили измену, развод, тяжелый разрыв отношений и до сих пор страдаете от этого</p>
+                        <p class="ml-4">Пережили измену, развод, тяжелый разрыв отношений и до сих пор страдаете от
+                            этого</p>
                     </div>
                     <div class="relative flex items-center w-auto">
                         <span class="absolute h-full w-[5px] bg-[#dd7c7c]"></span>
@@ -196,10 +213,11 @@
                     </div>
                     <div class="relative flex items-center w-auto">
                         <div class="absolute h-full w-[5px] bg-[#dd7c7c]"></div>
-                        <p class="ml-4">Вы опустошены и вам нужно найти ресурс, у вас плохое настроение, уныние и растерянность
+                        <p class="ml-4">Вы опустошены и вам нужно найти ресурс, у вас плохое настроение, уныние и
+                            растерянность
                         </p>
                     </div>
-                </div>  
+                </div>
 
                 <!-- FLEX WRAP -->
                 <!-- <div class="flex flex-wrap gap-8 text-white mb-14 text-md md:text-lg">
@@ -333,7 +351,7 @@
                     </div>
                 </div> -->
 
-                <div class="flex flex-wrap justify-center text-lg md:justify-center gap-28 my-14">
+                <div class="flex flex-wrap justify-start text-lg md:justify-center gap-28 my-14">
                     <div class="relative flex items-start justify-start w-[300px] md:w-[200px]">
                         <h1 class="absolute  font-bold text-[12rem] md:text-[12rem] text-[#eaebf6]">
                             1</h1>
@@ -344,45 +362,32 @@
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">2</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Проясните для себя, что в вашем поведении является проявлением
+                            созависимости, а что приводит к формированию здоровых отношений</p>
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">3</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Выявите список триггеров, приводящих к вступлению и поддержанию созависимых
+                            отношений</p>
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">4</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Поймете причины негативно повторяющихся сценариев во взаимоотношениях</p>
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">5</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Получите возможность встретиться с такими сложными чувствами, как гнев,
+                            обида, стыд, тревога, страх и сумеете проработать их</p>
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">6</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Научитесь выделять тревожные маркеры созависимости и справляться с ними при
+                            помощи личных ресурсов</p>
                     </div>
                     <div class="relative w-[300px] md:w-[200px]">
                         <h1 class="absolute font-bold text-[12rem] text-[#eaebf6]">7</h1>
-                        <p class="relative">Получите личное представление о созависимости и о ее
-                            деструктивном влиянии
-                            на
-                            качество вашей жизни</p>
+                        <p class="relative">Определитесь с тем, чего вы хотите от отношений и как вы можете к этому
+                            прийти</p>
                     </div>
                 </div>
 
@@ -398,7 +403,7 @@
 
     <section class="h-auto bg-[#d6d8f1]">
 
-        <div class="flex justify-between p-10 md:p-20">
+        <div class="flex justify-center p-10 md:p-20">
             <div class="max-w-[1240px]">
                 <h1 class="text-3xl font-bold md:text-4xl">Программа курса</h1>
                 <h1 class="text-xl md:text-2xl">Без скучных лекций и академизма: 8 часов практики и работы с
@@ -407,39 +412,33 @@
                     <img src="src/img/roadmap1.png" alt="" class="w-[300px] md:w-auto">
                     <div>
                         <h1 class="mb-4 text-2xl font-bold md:text-3xl">Когнитивная матрица</h1>
-                        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum eu
-                            nibh ac egestas.
-                            Vestibulum consectetur metus sit amet accumsan vehicula. Maecenas sed nisl libero. Aliquam
-                            congue lacinia eleifend. Vivamus mattis iaculis nisl eu varius. Duis in varius quam, in
-                            eleifend dolor. Ut a felis interdum, iaculis dolor ac, fermentum sapien. Sed a velit purus.
-                            Nunc eget volutpat dolor, eget volutpat enim. Fusce ullamcorper consequat nisi, vitae
-                            accumsan eros dignissim tempus.</p>
+                        <p class="text-xl">Цель: научиться работать с негативными и сложными переживаниями и жизненными
+                            ситуациями при помощи анализа происходящего с нескольких сторон – мышления, восприятия,
+                            чувств, социума. Таким образом, при столкновении с трудными жизненными ситуациями или
+                            состояниями вы будете знать и владеть инструментом, как помочь себе и своим близким
+                            терапевтически, работая со своей психикой и переживаниями самостоятельно!</p>
                     </div>
                 </div>
                 <div class="flex flex-col-reverse items-center justify-center lg:space-x-28 lg:flex-row">
                     <div>
-                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Когнитивная матрица</h1>
-                        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum eu
-                            nibh ac egestas.
-                            Vestibulum consectetur metus sit amet accumsan vehicula. Maecenas sed nisl libero. Aliquam
-                            congue lacinia eleifend. Vivamus mattis iaculis nisl eu varius. Duis in varius quam, in
-                            eleifend dolor. Ut a felis interdum, iaculis dolor ac, fermentum sapien. Sed a velit purus.
-                            Nunc eget volutpat dolor, eget volutpat enim. Fusce ullamcorper consequat nisi, vitae
-                            accumsan eros dignissim tempus.</p>
+                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Работа с чувствами. «Колесо злости» при помощи
+                            метафорических карт</h1>
+                        <p class="text-xl">Цель: вы сумеете обнаружить, как вы работаете и выражаете свои негативные
+                            эмоции; почему используете и выражаете одни, а другие игнорируете и выработаете личные
+                            установки на предмет управления своими эмоциями, что бы они вам не мешали
+                        </p>
                     </div>
                     <img src="src/img/roadmap2.png" alt="">
                 </div>
                 <div class="flex flex-col items-center justify-center lg:space-x-28 lg:flex-row">
                     <img src="src/img/roadmap3.png" alt="">
                     <div>
-                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Когнитивная матрица</h1>
-                        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum eu
-                            nibh ac egestas.
-                            Vestibulum consectetur metus sit amet accumsan vehicula. Maecenas sed nisl libero. Aliquam
-                            congue lacinia eleifend. Vivamus mattis iaculis nisl eu varius. Duis in varius quam, in
-                            eleifend dolor. Ut a felis interdum, iaculis dolor ac, fermentum sapien. Sed a velit purus.
-                            Nunc eget volutpat dolor, eget volutpat enim. Fusce ullamcorper consequat nisi, vitae
-                            accumsan eros dignissim tempus.</p>
+                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Выполнение и обсуждение техники
+                            «Кризис=Угроза+Ресурс»</h1>
+                        <p class="text-xl">Цель: вы совместно с группой и специалистом безопасно исследуете привычные
+                            пути преодоления кризисного события, вызванного взаимоотношениями с зависимым или его
+                            поведением, и обнаружите те способы, которые «заблокированы» в ситуации кризиса. Также
+                            данная техника поможет познакомиться с различными категориями ваших внутренних ресурсов.</p>
                     </div>
                 </div>
             </div>
@@ -448,11 +447,13 @@
 
     <!-- TUTORS -->
 
-    <section class="h-auto bg-white">
+    <section class="bg-white ">
         <div class="flex justify-center p-10 md:p-20">
             <div class="max-w-[1240px]">
                 <h1 class="text-3xl font-bold md:text-4xl mb-14">На этом пути вас поддержат</h1>
-                <div class="flex flex-col space-x- 0 md:space-x-[10rem] md:flex-row">
+
+                <div class="flex flex-wrap justify-center space-x-0 gap-12 lg:space-x-[10rem]">
+
                     <div class="flex flex-col items-center text-center max-w-[350px]">
                         <div class="mb-4">
                             <img src="src/img/livada.png" class="w-[300px]" />
@@ -460,11 +461,12 @@
                         <h1 class="mb-2 text-3xl font-bold">Елена Витальевна Сафонова (Ливада)</h1>
                         <p class="text-lg">Клинический психолог, семейный психолог, педагог-психолог</p>
                     </div>
+
                     <div class="flex flex-col items-center text-center max-w-[350px]">
                         <div class="mb-4">
                             <img src="src/img/veronika.png" class="w-[300px]" />
                         </div>
-                        <h1 class="mb-2 text-3xl font-bold">Вероника Алексеевна Ильина (Хохлова)</h1>
+                        <h1 class="mb-2 text-3xl font-bold">Вероника Хохлова</h1>
                         <p class="text-lg">Специалист по работе с созависимыми метод «Равное консультирование». Наш
                             заботливый администратор, который будет сопровождать вас на каждом </p>
                     </div>
