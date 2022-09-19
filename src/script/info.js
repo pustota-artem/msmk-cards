@@ -14,3 +14,15 @@ openBtn.addEventListener('click', function () {
         openBtn.classList.remove('rotate-180');
     }
 });
+
+window.onload = function () {
+    if (window.innerWidth >= 1024)
+        document.getElementById('videoBG').innerHTML = '<source src="src/video/video1.webm" type="video/webm"> <source src="src/video/video1.mp4" type="video/mp4">'
+};
+
+window.onload = function () {
+    if (window.innerWidth <= 1240) {
+        document.getElementById('main-section').classList.remove('lg:pr-[40rem]');
+        document.getElementById('main-section').classList.add('lg:pr-[15rem]');
+    };
+};

@@ -712,6 +712,22 @@ video {
   width: 3rem;
 }
 
+.w-\[1240px\] {
+  width: 1240px;
+}
+
+.w-\[900px\] {
+  width: 900px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[850px\] {
+  width: 850px;
+}
+
 .max-w-\[1240px\] {
   max-width: 1240px;
 }
@@ -870,6 +886,10 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pr-\[15rem\] {
+  padding-right: 15rem;
 }
 
 .text-center {
@@ -1086,5 +1106,21 @@ body {
 
   .lg\:pr-\[25rem\] {
     padding-right: 25rem;
+  }
+
+  .lg\:pr-\[35rem\] {
+    padding-right: 35rem;
+  }
+
+  .lg\:pr-\[45rem\] {
+    padding-right: 45rem;
+  }
+
+  .lg\:pr-\[40rem\] {
+    padding-right: 40rem;
+  }
+
+  .lg\:pr-\[15rem\] {
+    padding-right: 15rem;
   }
 }

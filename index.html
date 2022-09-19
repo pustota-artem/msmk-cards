@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -9,32 +9,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet" />
+    <meta name="description" content="Авторский курс Елены Ливады «Созависимость: от бессознательного к осознанности»">
     <title>Авторский курс Елены Ливады «Созависимость: от бессознательного к осознанности»</title>
-
 </head>
 
 <body>
 
     <!-- NAVBAR -->
 
-    <div class="flex justify-center items-center w-full h-[170px] bg-gray-100">
+    <!-- <div class="flex justify-center items-center w-full h-[170px] bg-gray-100">
         <h1 class="text-3xl font-bold">ШАПКА</h1>
-    </div>
+    </div> -->
 
     <!-- HERO -->
 
     <section class="bg-white realtive drop-shadow-xl" id="hero">
-
         <video poster="src/img/fallback.png" autoplay playsinline muted loop class="absolute object-cover w-full h-full"
             id="videoBG">
         </video>
-
-
         <div class="relative flex justify-center p-10 md:p-20">
-
-            <div class="">
-
-                <div class="flex flex-col items-start justify-start lg:justify-center lg:pr-[25rem]">
+            <div>
+                <div class="flex flex-col items-start justify-start lg:justify-center lg:pr-[40rem]" id="main-section">
                     <p class="text-xl mb-14 md:text-3xl">Авторский курс Елены Ливады<br />с применением мак-колоды
                     </p>
                     <h1 class="mb-20 text-4xl font-bold md:text-6xl">Созависимость:<br />от бессознательного<br />к
@@ -43,23 +38,15 @@
                     <p class="text-xl mb-28 md:text-3xl">Установите контакт со своим подсознанием,<br />выявите суть
                         проблемы и
                         решите ее</p>
-                    <a href="#registration" class="bg-[#dd7c7c] text-white font-semibold p-4 rounded-xl shadow-md text-lg">Записаться
+                    <a href="#registration"
+                        class="bg-[#dd7c7c] text-white font-semibold p-4 rounded-xl shadow-md text-lg">Записаться
                         на курс</a>
                 </div>
-
             </div>
-
-
         </div>
-
     </section>
 
-    <script>
-        window.onload = function () {
-            if (window.innerWidth >= 1024)
-                document.getElementById('videoBG').innerHTML = '<source src="src/video/video1.webm" type="video/webm"> <source src="src/video/video1.mp4" type="video/mp4">'
-        };
-    </script>
+    <!-- INFO -->
 
     <section class="relative h-auto bg-[#d6d8f1]">
         <div class="flex justify-center px-10 py-5">
@@ -100,8 +87,6 @@
         </div>
     </section>
 
-    <script src="src/script/info.js"></script>
-
     <!-- ABOUT -->
 
     <section class="relative h-auto bg-white">
@@ -132,16 +117,12 @@
     <!-- EFFICENCY -->
 
     <section class="h-auto bg-[#727fe6]">
-
         <div class="flex justify-center p-10 md:p-20">
             <div class="max-w-[1240px]">
                 <h1 class="mb-2 text-3xl font-bold text-white md:text-4xl">Курс будет полезен,</h1>
                 <h1 class="mb-10 text-2xl font-normal text-white md:text-3xl">если вы узнаете себя в следующих
                     ситуациях:
                 </h1>
-
-                <!-- GRID -->
-
                 <div class="grid grid-cols-1 gap-12 text-xl text-white md:grid-cols-2 mb-14">
                     <div class="relative flex items-center w-auto">
                         <div class="absolute top left-0 w-[5px] h-full mr-2 bg-[#dd7c7c]"></div>
@@ -185,7 +166,6 @@
                     глубинные
                     проблемы, но и научитесь работать с колодой мак,
                     чтобы в дальнейшем анализировать состояние без посторонней помощи.</h1>
-
                 <div class="bg-[#c8cbfc] p-14">
                     <p class="text-xl">Участие в онлайн-тренинге это хорошая возможность безопасно для себя
                         совершить тот уровень работы с
@@ -198,12 +178,9 @@
                         группы
                         единомышленников и поддержки в победе над созависимостью.</p>
                 </div>
-
             </div>
         </div>
         </div>
-
-
     </section>
 
     <!-- MARQUEE -->
@@ -300,7 +277,8 @@
                 <div class="flex flex-col items-center justify-center lg:space-x-28 lg:flex-row">
                     <img src="src/img/roadmap3.png" alt="" class="mt-8 mb-6 md:my-0">
                     <div>
-                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Выполнение и обсуждение техники <br class="hidden md:block">
+                        <h1 class="mb-4 text-2xl font-bold md:text-3xl">Выполнение и обсуждение техники <br
+                                class="hidden md:block">
                             «Кризис = Угроза + Ресурс»</h1>
                         <p class="text-xl">Цель: вы совместно с группой и специалистом безопасно исследуете привычные
                             пути преодоления кризисного события, вызванного взаимоотношениями с зависимым или его
@@ -341,21 +319,19 @@
             </div>
     </section>
 
+    <!-- REGISTRATION -->
+
     <section class="h-auto bg-[#555555] text-white" id="registration">
         <div class="flex justify-center p-10">
             <div class="max-w-[1240px]">
-
                 <h1 class="mb-8 text-4xl font-bold text-center md:text-start">Запишитесь на курс</h1>
-
                 <div class="flex flex-wrap justify-center space-y-[2rem] md:space-x-[5rem]">
-
                     <div class="max-w-[250px]">
                         <p class="text-lg">Cтоимость курса</p>
                         <h1 class="text-3xl font-bold">6 500 р.</h1>
                         <div class="w-full h-[3px] bg-[#727fe6] my-2"></div>
                         <p class="text-lg">При регистрации прямо сейчас — скидка 500 р.</p>
                     </div>
-
                     <iframe class='rounded-lg shadow-sm' height="430" width="380"
                         src="https://edu.mcmk.su/pl/lite/widget/widget?id=740201" scrolling="no"></iframe>
 
@@ -376,14 +352,17 @@
                         </div>
                         <div class="flex justify-start">
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 mr-4">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
-                                  </svg>
-                                  
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-12 h-12 mr-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                                </svg>
                             </div>
                             <div class="">
                                 <h1 class="mb-2 text-3xl font-bold">Есть вопросы?</h1>
-                                <p class="text-lg">Звоните нам по номеру <a href="tel:88005514171" class="font-bold">8 (800) 551-41-71</a>. Работаем без выходных с 9:00 до 21:00 МСК. Звонок анонимный и бесплатный.</a></p>
+                                <p class="text-lg">Звоните нам по номеру <a href="tel:88005514171" class="font-bold">8
+                                        (800) 551-41-71</a>. Работаем без выходных с 9:00 до 21:00 МСК. Звонок анонимный
+                                    и бесплатный.</a></p>
                             </div>
                         </div>
                     </div>
@@ -392,6 +371,7 @@
             </div>
         </div>
     </section>
+    <script src="src/script/info.js"></script>
 </body>
 
 </html>
