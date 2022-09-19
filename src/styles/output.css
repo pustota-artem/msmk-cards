@@ -966,15 +966,12 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+.main h1 {
   font-family: Ubuntu;
 }
 
-body {
+.main p {
   font-family: Source Sans Pro;
-}
-
-#hero {
 }
 
 @media (min-width: 768px) {
@@ -1066,12 +1063,6 @@ body {
     --tw-space-x-reverse: 0;
     margin-right: calc(7rem * var(--tw-space-x-reverse));
     margin-left: calc(7rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-x-\[10rem\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(10rem * var(--tw-space-x-reverse));
-    margin-left: calc(10rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:pr-\[40rem\] {
