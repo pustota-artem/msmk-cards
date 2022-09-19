@@ -12,6 +12,6 @@ html {
   font-family: Ubuntu;
 }
 
-.main p {
+.main p, li {
   font-family: Source Sans Pro;
 }
