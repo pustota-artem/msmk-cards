@@ -735,6 +735,14 @@ video {
   width: 400px;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
 .max-w-\[1240px\] {
   max-width: 1240px;
 }
@@ -753,6 +761,10 @@ video {
 
 .max-w-\[1400px\] {
   max-width: 1400px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .rotate-180 {
@@ -1100,6 +1112,14 @@ html {
 
   .md\:w-\[200px\] {
     width: 200px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[800px\] {
+    width: 800px;
   }
 
   .md\:grid-cols-2 {
