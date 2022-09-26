@@ -4,9 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 .main h1 {
   font-family: Ubuntu;
@@ -24,9 +24,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.7); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
+  backdrop-filter: blur(2px);
 }
 
 .popup {

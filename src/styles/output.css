@@ -571,38 +571,6 @@ video {
   bottom: 1.5rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.right-5 {
-  right: 1.25rem;
-}
-
-.right-8 {
-  right: 2rem;
-}
-
 .top-3 {
   top: 0.75rem;
 }
@@ -685,10 +653,6 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .mb-16 {
@@ -844,34 +808,12 @@ video {
   gap: 7rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-96 {
-  gap: 24rem;
-}
-
-.gap-36 {
-  gap: 9rem;
-}
-
-.gap-44 {
-  gap: 11rem;
-}
-
-.gap-24 {
-  gap: 6rem;
-}
-
 .gap-14 {
   gap: 3.5rem;
 }
 
-.space-x-\[13rem\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(13rem * var(--tw-space-x-reverse));
-  margin-left: calc(13rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-20 {
+  gap: 5rem;
 }
 
 .space-y-\[2rem\] > :not([hidden]) ~ :not([hidden]) {
@@ -886,12 +828,6 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-\[4rem\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -902,10 +838,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-b {
@@ -1041,11 +973,6 @@ video {
   font-size: 12rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1115,9 +1042,9 @@ video {
   transition-duration: 500ms;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 .main h1 {
   font-family: Ubuntu;
@@ -1138,12 +1065,14 @@ video {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   /* Black background with opacity */
   z-index: 2;
   /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
   /* Add a pointer on hover */
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 
 .popup {
@@ -1181,26 +1110,10 @@ video {
     justify-content: center;
   }
 
-  .md\:gap-44 {
-    gap: 11rem;
-  }
-
   .md\:space-x-\[5rem\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(5rem * var(--tw-space-x-reverse));
     margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-\[13rem\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(13rem * var(--tw-space-x-reverse));
-    margin-left: calc(13rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .md\:p-20 {
