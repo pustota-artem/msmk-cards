@@ -736,24 +736,18 @@ video {
   width: 1240px;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-12 {
   width: 3rem;
 }
 
 .w-\[350px\] {
   width: 350px;
-}
-
-.w-min {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .max-w-\[1240px\] {
@@ -764,24 +758,16 @@ video {
   max-width: 350px;
 }
 
+.max-w-\[280px\] {
+  max-width: 280px;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
 
 .max-w-\[300px\] {
   max-width: 300px;
-}
-
-.max-w-\[225px\] {
-  max-width: 225px;
-}
-
-.max-w-\[2500px\] {
-  max-width: 2500px;
-}
-
-.max-w-\[280px\] {
-  max-width: 280px;
 }
 
 .rotate-180 {
@@ -851,16 +837,16 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -940,14 +926,6 @@ video {
   padding: 2rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -956,6 +934,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -971,16 +959,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .text-center {
@@ -1050,11 +1028,6 @@ video {
 .text-\[\#eaebf6\] {
   --tw-text-opacity: 1;
   color: rgb(234 235 246 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-\[\#555555\] {
